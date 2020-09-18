@@ -38,6 +38,12 @@ function changewords()
 {
 document.getElementById("demo").innerHTML = "Hello JavaScript!";}
 
+function htmlwrite()
+{
+document.write("write out!");}
+function consolewrite()
+{
+console.log("write on concole");}
 </script>
 
 </head>
@@ -58,8 +64,9 @@ document.getElementById("demo").innerHTML = "Hello JavaScript!";}
 
 <h1>JavaScript Example</h1>
 
-<button type="button" onclick="changewords()">
-Click me to change words.</button>
+<button type="button" onclick="changewords()">Click me to change words.</button>
+<button type="button" onclick="htmlwrite()"> click me to write out </button>
+<button type="button" onclick="consolewrite()"> click me to write to console </button>
 
 <p id="demo">Space to display date</p>
 <footer>
