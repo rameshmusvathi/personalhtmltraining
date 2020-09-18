@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.tableclass {
+background-color:#5085C2;
+color: white;
+height:100px;
+width:100%}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#404FA2;
+}
+li {
+  float: left;
+}
+li a:hover {
+  background-color: #5085C2;}
+li a:active{
+background-color: #5085C2;}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  text-emphasis-style: none;
+}
+</style>
+<script>
+function changewords()
+{
+document.getElementById("demo").innerHTML = "Hello JavaScript!";}
+
+</script>
+
+</head>
+<body>
+<table class= "tableclass"; >
+ <tr>
+ <td>
+ <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Tripleline.com" width="100" height="100">
+ </td>
+ <td align="right"> <b><i>Soliciting Sustainable Solutions</i></b></td>
+ </tr>
+ </table>
+<ul>
+  <li><a href="#aboutUs"><b>About Us</b></a></li>
+  <li><a href="#contact"><b>Contact</b></a></li>
+  <li><a href="#login"><b>Employee Login</b></a></li>
+</ul>
+
+<h1>JavaScript Example</h1>
+
+<button type="button" onclick="changewords()">
+Click me to change words.</button>
+
+<p id="demo">Space to display date</p>
+<footer>
+  <p>© Tripleline Technologies Pte Limited</p>
+</footer>
+</body>
+</html> 
